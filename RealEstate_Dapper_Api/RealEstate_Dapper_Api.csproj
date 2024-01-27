@@ -22,6 +22,7 @@
     <None Remove="DTOs\CategoryDTOs\" />
     <None Remove="Repositories\" />
     <None Remove="Repositories\CategoryRepository\" />
+    <None Remove="Controllers\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />
@@ -30,5 +31,6 @@
     <Folder Include="DTOs\CategoryDTOs\" />
     <Folder Include="Repositories\" />
     <Folder Include="Repositories\CategoryRepository\" />
+    <Folder Include="Controllers\" />
   </ItemGroup>
 </Project>
