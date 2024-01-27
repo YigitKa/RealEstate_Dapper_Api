@@ -47,6 +47,13 @@ namespace RealEstate_Dapper_Api.Controllers
             _categoryRepository.UpdateCategory(categoryDTO);
             return Ok("Kategori güncellendi");
         }
+
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetCategory(int id)
+        {
+            var value = await _categoryRepository.GetCategory(id);
+            return Ok(value);
+        }
     }
 }
 
