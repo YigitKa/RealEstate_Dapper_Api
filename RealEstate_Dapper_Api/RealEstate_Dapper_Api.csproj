@@ -11,6 +11,24 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.15" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="5.1.4" />
+    <PackageReference Include="Dapper" Version="2.1.28" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Remove="Models\" />
+    <None Remove="Models\DapperContext\" />
+    <None Remove="DTOs\" />
+    <None Remove="DTOs\CategoryDTOs\" />
+    <None Remove="Repositories\" />
+    <None Remove="Repositories\CategoryRepository\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Models\" />
+    <Folder Include="Models\DapperContext\" />
+    <Folder Include="DTOs\" />
+    <Folder Include="DTOs\CategoryDTOs\" />
+    <Folder Include="Repositories\" />
+    <Folder Include="Repositories\CategoryRepository\" />
+  </ItemGroup>
 </Project>
