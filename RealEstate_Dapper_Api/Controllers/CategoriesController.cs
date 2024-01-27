@@ -33,6 +33,13 @@ namespace RealEstate_Dapper_Api.Controllers
             _categoryRepository.CreateCategory(createCategoryDTO);
             return Ok("Kategori eklendi");
         }
+
+        [HttpDelete]
+        public async Task<IActionResult> DeleteCategory(int categoryID)
+        {
+            _categoryRepository.DeleteCategory(categoryID);
+            return Ok("Kategori silindi");
+        }
     }
 }
 
