@@ -10,8 +10,20 @@
   <PropertyGroup Condition=" '$(RunConfiguration)' == 'http' " />
   <ItemGroup>
     <None Remove="Views\Profile\" />
+    <None Remove="Views\Default\" />
+    <None Remove="Views\Shared\Components\" />
+    <None Remove="Views\Shared\Components\_HeaderViewComponentPartial\" />
+    <None Remove="ViewComponents\" />
+    <None Remove="ViewComponents\Layout\" />
+    <None Remove="Views\Shared\Components\_NavbarViewComponentPartial\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\Profile\" />
+    <Folder Include="Views\Default\" />
+    <Folder Include="Views\Shared\Components\" />
+    <Folder Include="Views\Shared\Components\_HeaderViewComponentPartial\" />
+    <Folder Include="ViewComponents\" />
+    <Folder Include="ViewComponents\Layout\" />
+    <Folder Include="Views\Shared\Components\_NavbarViewComponentPartial\" />
   </ItemGroup>
 </Project>
