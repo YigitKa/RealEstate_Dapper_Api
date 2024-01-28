@@ -9,6 +9,7 @@ install-sh
 autom4te.cache/
 *.tar.gz
 tarballs/
+bin/
 test-results/
 
 # Mac bundle stuff
@@ -405,3 +406,6 @@ ASALocalRun/
 .localhistory/
 *.dll
 *.pdb
+*.dll
+*.dll
+RealEstate_Dapper_UI/bin/Debug/net7.0/RealEstate_Dapper_UI.dll
