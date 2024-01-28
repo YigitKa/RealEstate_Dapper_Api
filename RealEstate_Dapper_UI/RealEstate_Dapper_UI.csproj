@@ -20,7 +20,6 @@
     <None Remove="Views\Shared\Components\_DefaultFeatureComponentPartial\" />
     <None Remove="Views\Shared\Components\_DefaultHomePageProductPage\" />
     <None Remove="Views\Shared\Components\_DefaultWhoWeAreComponentPartial\" />
-    <None Remove="Views\Shared\Components\_DefaultServicesComponentPartial\" />
     <None Remove="Views\Shared\Components\_DefaultProductListExploreCitiesComponentPartial\" />
     <None Remove="Views\Shared\Components\_DefaultOurClientsComponentPartial\" />
     <None Remove="Views\Shared\Components\_DefaultSubFeatureComponentPartial\" />
@@ -32,6 +31,8 @@
     <None Remove="DTOs\ProductDTOs\" />
     <None Remove="DTOs\WhoWeAreDTOs\" />
     <None Remove="DTOs\ServiceDTOs\" />
+    <None Remove="Views\Shared\Components\_DefaultBottomGridComponentPartial\" />
+    <None Remove="DTOs\BottomGridDTOs\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\Profile\" />
@@ -45,7 +46,6 @@
     <Folder Include="Views\Shared\Components\_DefaultFeatureComponentPartial\" />
     <Folder Include="Views\Shared\Components\_DefaultHomePageProductPage\" />
     <Folder Include="Views\Shared\Components\_DefaultWhoWeAreComponentPartial\" />
-    <Folder Include="Views\Shared\Components\_DefaultServicesComponentPartial\" />
     <Folder Include="Views\Shared\Components\_DefaultProductListExploreCitiesComponentPartial\" />
     <Folder Include="Views\Shared\Components\_DefaultOurClientsComponentPartial\" />
     <Folder Include="Views\Shared\Components\_DefaultSubFeatureComponentPartial\" />
@@ -57,6 +57,8 @@
     <Folder Include="DTOs\ProductDTOs\" />
     <Folder Include="DTOs\WhoWeAreDTOs\" />
     <Folder Include="DTOs\ServiceDTOs\" />
+    <Folder Include="Views\Shared\Components\_DefaultBottomGridComponentPartial\" />
+    <Folder Include="DTOs\BottomGridDTOs\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />

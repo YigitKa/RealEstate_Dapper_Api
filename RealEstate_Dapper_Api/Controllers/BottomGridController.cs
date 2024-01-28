@@ -1,0 +1,29 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc;
+using RealEstate_Dapper_Api.Repositories.BottomGridRepository;
+
+// For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+
+namespace RealEstate_Dapper_Api.Controllers
+{
+    [Route("api/[controller]")]
+    public class BottomGridController : Controller
+    {
+        private readonly IBottomGridRepository _bottomGridRepository;
+        public BottomGridController(IBottomGridRepository bottomGridRepository)
+        {
+            _bottomGridRepository = bottomGridRepository;
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> CategoryList()
+        {
+            var values = await _bottomGridRepository.GetAllBottomGridAsync();
+            return Ok(values);
+        }
+    }
+}
+

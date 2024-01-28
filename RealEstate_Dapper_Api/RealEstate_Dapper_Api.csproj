@@ -29,6 +29,8 @@
     <None Remove="DTOs\WhoWeAreDetailDTOs\" />
     <None Remove="DTOs\ServieDTOs\" />
     <None Remove="Repositories\ServiceRepository\" />
+    <None Remove="DTOs\BottomGridDTOs\" />
+    <None Remove="Repositories\BottomGridRepository\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />
@@ -44,5 +46,7 @@
     <Folder Include="DTOs\WhoWeAreDetailDTOs\" />
     <Folder Include="DTOs\ServieDTOs\" />
     <Folder Include="Repositories\ServiceRepository\" />
+    <Folder Include="DTOs\BottomGridDTOs\" />
+    <Folder Include="Repositories\BottomGridRepository\" />
   </ItemGroup>
 </Project>

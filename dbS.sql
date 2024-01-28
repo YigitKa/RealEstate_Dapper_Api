@@ -92,3 +92,17 @@ CREATE TABLE Services
     ServiceStatus bit,
 )
 */
+
+/*
+ALTER TABLE Product ADD Type NVARCHAR(10) 
+*/
+
+/*
+Create Table BottomGrid 
+(
+    BottomGridID INT PRIMARY KEY IDENTITY(1,1),
+    Icon NVARCHAR(100),
+    Title NVARCHAR(100),
+    Description NVARCHAR(250)
+)
+*/
