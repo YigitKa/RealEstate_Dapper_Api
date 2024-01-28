@@ -25,6 +25,10 @@
     <None Remove="Controllers\" />
     <None Remove="Repositories\ProductRepository\" />
     <None Remove="DTOs\ProductDTOs\" />
+    <None Remove="Repositories\WhoWeAreRepository\" />
+    <None Remove="DTOs\WhoWeAreDetailDTOs\" />
+    <None Remove="DTOs\ServieDTOs\" />
+    <None Remove="Repositories\ServiceRepository\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />
@@ -36,5 +40,9 @@
     <Folder Include="Controllers\" />
     <Folder Include="Repositories\ProductRepository\" />
     <Folder Include="DTOs\ProductDTOs\" />
+    <Folder Include="Repositories\WhoWeAreRepository\" />
+    <Folder Include="DTOs\WhoWeAreDetailDTOs\" />
+    <Folder Include="DTOs\ServieDTOs\" />
+    <Folder Include="Repositories\ServiceRepository\" />
   </ItemGroup>
 </Project>

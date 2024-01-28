@@ -409,3 +409,5 @@ ASALocalRun/
 *.dll
 *.dll
 RealEstate_Dapper_UI/bin/Debug/net7.0/RealEstate_Dapper_UI.dll
+RealEstate_Dapper_UI/bin/Debug/net7.0/RealEstate_Dapper_UI.dll
+*.dll

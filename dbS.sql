@@ -59,10 +59,36 @@ CREATE TABLE Employee
     Status BIT
 )
 */
-
+/*
 ALTER TABLE ProductDetails
 ADD FOREIGN KEY (ProductID) REFERENCES Product(ProductID);
+
+ALTER TABLE Product
+ADD FOREIGN KEY (EmployeeID) REFERENCES Employee(EmployeeID);
+
 
 
 ALTER TABLE Product
 ADD FOREIGN KEY (ProductCategory) REFERENCES Category(CategoryID);
+
+*/
+
+/*
+CREATE TABLE WhoWeAreDetail
+(
+    WhoWeAreDetailID INT PRIMARY KEY IDENTITY(1,1),
+    Title NVARCHAR(100),
+    SubTitle NVARCHAR(100),
+    Description1 NVARCHAR(500),
+    Description2 NVARCHAR(500),
+)
+*/
+
+/*
+CREATE TABLE Services
+(
+    ServiceID INT PRIMARY KEY IDENTITY(1,1),
+    ServiceName NVARCHAR(100),
+    ServiceStatus bit,
+)
+*/

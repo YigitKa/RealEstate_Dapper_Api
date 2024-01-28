@@ -6,6 +6,7 @@
 /Users/yigitkatircioglu/Projects/RealEstate_Dapper_Api/RealEstate_Dapper_UI/bin/Debug/net7.0/RealEstate_Dapper_UI.runtimeconfig.json
 /Users/yigitkatircioglu/Projects/RealEstate_Dapper_Api/RealEstate_Dapper_UI/bin/Debug/net7.0/RealEstate_Dapper_UI.dll
 /Users/yigitkatircioglu/Projects/RealEstate_Dapper_Api/RealEstate_Dapper_UI/bin/Debug/net7.0/RealEstate_Dapper_UI.pdb
+/Users/yigitkatircioglu/Projects/RealEstate_Dapper_Api/RealEstate_Dapper_UI/bin/Debug/net7.0/Newtonsoft.Json.dll
 /Users/yigitkatircioglu/Projects/RealEstate_Dapper_Api/RealEstate_Dapper_UI/obj/Debug/net7.0/RealEstate_Dapper_UI.csproj.AssemblyReference.cache
 /Users/yigitkatircioglu/Projects/RealEstate_Dapper_Api/RealEstate_Dapper_UI/obj/Debug/net7.0/RealEstate_Dapper_UI.GeneratedMSBuildEditorConfig.editorconfig
 /Users/yigitkatircioglu/Projects/RealEstate_Dapper_Api/RealEstate_Dapper_UI/obj/Debug/net7.0/RealEstate_Dapper_UI.AssemblyInfoInputs.cache
@@ -24,6 +25,7 @@
 /Users/yigitkatircioglu/Projects/RealEstate_Dapper_Api/RealEstate_Dapper_UI/obj/Debug/net7.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
 /Users/yigitkatircioglu/Projects/RealEstate_Dapper_Api/RealEstate_Dapper_UI/obj/Debug/net7.0/scopedcss/bundle/RealEstate_Dapper_UI.styles.css
 /Users/yigitkatircioglu/Projects/RealEstate_Dapper_Api/RealEstate_Dapper_UI/obj/Debug/net7.0/scopedcss/projectbundle/RealEstate_Dapper_UI.bundle.scp.css
+/Users/yigitkatircioglu/Projects/RealEstate_Dapper_Api/RealEstate_Dapper_UI/obj/Debug/net7.0/RealEstate_Dapper_UI.csproj.CopyComplete
 /Users/yigitkatircioglu/Projects/RealEstate_Dapper_Api/RealEstate_Dapper_UI/obj/Debug/net7.0/RealEstate_Dapper_UI.dll
 /Users/yigitkatircioglu/Projects/RealEstate_Dapper_Api/RealEstate_Dapper_UI/obj/Debug/net7.0/refint/RealEstate_Dapper_UI.dll
 /Users/yigitkatircioglu/Projects/RealEstate_Dapper_Api/RealEstate_Dapper_UI/obj/Debug/net7.0/RealEstate_Dapper_UI.pdb
