@@ -16,6 +16,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/yigitkatircioglu/Projects/RealEstate_Dapper_Api/RealEstate_Dapper_UI
 build_property._RazorSourceGeneratorDebug = 
 
+[/Users/yigitkatircioglu/Projects/RealEstate_Dapper_Api/RealEstate_Dapper_UI/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/yigitkatircioglu/Projects/RealEstate_Dapper_Api/RealEstate_Dapper_UI/Views/Category/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2F0ZWdvcnkvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/yigitkatircioglu/Projects/RealEstate_Dapper_Api/RealEstate_Dapper_UI/Views/Default/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGVmYXVsdC9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -30,6 +38,30 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/Users/yigitkatircioglu/Projects/RealEstate_Dapper_Api/RealEstate_Dapper_UI/Views/Profile/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZmlsZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/yigitkatircioglu/Projects/RealEstate_Dapper_Api/RealEstate_Dapper_UI/Views/Shared/Components/_AdminLayoutFooterComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX0FkbWluTGF5b3V0Rm9vdGVyQ29tcG9uZW50UGFydGlhbC9EZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/yigitkatircioglu/Projects/RealEstate_Dapper_Api/RealEstate_Dapper_UI/Views/Shared/Components/_AdminLayoutHeadComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX0FkbWluTGF5b3V0SGVhZENvbXBvbmVudFBhcnRpYWwvRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/yigitkatircioglu/Projects/RealEstate_Dapper_Api/RealEstate_Dapper_UI/Views/Shared/Components/_AdminLayoutNavbarComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX0FkbWluTGF5b3V0TmF2YmFyQ29tcG9uZW50UGFydGlhbC9EZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/yigitkatircioglu/Projects/RealEstate_Dapper_Api/RealEstate_Dapper_UI/Views/Shared/Components/_AdminLayoutScriptComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX0FkbWluTGF5b3V0U2NyaXB0Q29tcG9uZW50UGFydGlhbC9EZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/yigitkatircioglu/Projects/RealEstate_Dapper_Api/RealEstate_Dapper_UI/Views/Shared/Components/_AdminLayoutSideBarComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX0FkbWluTGF5b3V0U2lkZUJhckNvbXBvbmVudFBhcnRpYWwvRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/yigitkatircioglu/Projects/RealEstate_Dapper_Api/RealEstate_Dapper_UI/Views/Shared/Components/_AdminLayoutSpinnerComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX0FkbWluTGF5b3V0U3Bpbm5lckNvbXBvbmVudFBhcnRpYWwvRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/yigitkatircioglu/Projects/RealEstate_Dapper_Api/RealEstate_Dapper_UI/Views/Shared/Components/_DefaultBottomGridComponentPartial/Default.cshtml]

@@ -34,6 +34,16 @@
     <None Remove="Views\Shared\Components\_DefaultBottomGridComponentPartial\" />
     <None Remove="DTOs\BottomGridDTOs\" />
     <None Remove="DTOs\PopularLocationDTOs\" />
+    <None Remove="Views\Admin\" />
+    <None Remove="Views\Category\" />
+    <None Remove="Views\Shared\Components\_AdminLayoutHeadComponentPartial\" />
+    <None Remove="Views\Shared\Components\_AdminLayoutSpinnerComponentPartial\" />
+    <None Remove="ViewComponents\AdminLayout\" />
+    <None Remove="Views\Shared\Components\_AdminLayoutSideBarComponentPartial\" />
+    <None Remove="Views\Shared\Components\_AdminLayoutScriptComponentPartial\" />
+    <None Remove="Views\Shared\Components\_AdminLayoutNavbarComponentPartial\" />
+    <None Remove="Views\Shared\Components\_AdminLayoutFooterComponentPartial\" />
+    <None Remove="DTOs\CategoryDTOs\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\Profile\" />
@@ -62,6 +72,16 @@
     <Folder Include="DTOs\BottomGridDTOs\" />
     <Folder Include="wwwroot\cityImages\" />
     <Folder Include="DTOs\PopularLocationDTOs\" />
+    <Folder Include="Views\Admin\" />
+    <Folder Include="Views\Category\" />
+    <Folder Include="Views\Shared\Components\_AdminLayoutHeadComponentPartial\" />
+    <Folder Include="Views\Shared\Components\_AdminLayoutSpinnerComponentPartial\" />
+    <Folder Include="ViewComponents\AdminLayout\" />
+    <Folder Include="Views\Shared\Components\_AdminLayoutSideBarComponentPartial\" />
+    <Folder Include="Views\Shared\Components\_AdminLayoutScriptComponentPartial\" />
+    <Folder Include="Views\Shared\Components\_AdminLayoutNavbarComponentPartial\" />
+    <Folder Include="Views\Shared\Components\_AdminLayoutFooterComponentPartial\" />
+    <Folder Include="DTOs\CategoryDTOs\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
