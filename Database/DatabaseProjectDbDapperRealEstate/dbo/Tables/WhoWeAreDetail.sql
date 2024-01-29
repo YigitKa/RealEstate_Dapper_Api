@@ -6,7 +6,5 @@ CREATE TABLE [dbo].[WhoWeAreDetail] (
     [Description2]     NVARCHAR (500) NULL,
     PRIMARY KEY CLUSTERED ([WhoWeAreDetailID] ASC)
 );
-
-
 GO
 

@@ -14,7 +14,5 @@ CREATE TABLE [dbo].[ProductDetails] (
     FOREIGN KEY ([ProductID]) REFERENCES [dbo].[Product] ([ProductID]),
     FOREIGN KEY ([ProductID]) REFERENCES [dbo].[Product] ([ProductID])
 );
-
-
 GO
 

@@ -8,7 +8,5 @@ CREATE TABLE [dbo].[Employee] (
     [Status]     BIT            NULL,
     PRIMARY KEY CLUSTERED ([EmployeeID] ASC)
 );
-
-
 GO
 

@@ -9,6 +9,38 @@
       "PackagePath": "staticwebassets/.DS_Store"
     },
     {
+      "Id": "/Users/yigitkatircioglu/Projects/RealEstate_Dapper_Api/RealEstate_Dapper_UI/wwwroot/cityImages/ankara-1.jpeg",
+      "PackagePath": "staticwebassets/cityImages/ankara-1.jpeg"
+    },
+    {
+      "Id": "/Users/yigitkatircioglu/Projects/RealEstate_Dapper_Api/RealEstate_Dapper_UI/wwwroot/cityImages/baku-1.jpeg",
+      "PackagePath": "staticwebassets/cityImages/baku-1.jpeg"
+    },
+    {
+      "Id": "/Users/yigitkatircioglu/Projects/RealEstate_Dapper_Api/RealEstate_Dapper_UI/wwwroot/cityImages/bayburt-1.webp",
+      "PackagePath": "staticwebassets/cityImages/bayburt-1.webp"
+    },
+    {
+      "Id": "/Users/yigitkatircioglu/Projects/RealEstate_Dapper_Api/RealEstate_Dapper_UI/wwwroot/cityImages/biskek-1.jpeg",
+      "PackagePath": "staticwebassets/cityImages/biskek-1.jpeg"
+    },
+    {
+      "Id": "/Users/yigitkatircioglu/Projects/RealEstate_Dapper_Api/RealEstate_Dapper_UI/wwwroot/cityImages/newyork-1.webp",
+      "PackagePath": "staticwebassets/cityImages/newyork-1.webp"
+    },
+    {
+      "Id": "/Users/yigitkatircioglu/Projects/RealEstate_Dapper_Api/RealEstate_Dapper_UI/wwwroot/cityImages/sakarya-1.webp",
+      "PackagePath": "staticwebassets/cityImages/sakarya-1.webp"
+    },
+    {
+      "Id": "/Users/yigitkatircioglu/Projects/RealEstate_Dapper_Api/RealEstate_Dapper_UI/wwwroot/cityImages/sam-1.jpeg",
+      "PackagePath": "staticwebassets/cityImages/sam-1.jpeg"
+    },
+    {
+      "Id": "/Users/yigitkatircioglu/Projects/RealEstate_Dapper_Api/RealEstate_Dapper_UI/wwwroot/cityImages/taskent-1.webp",
+      "PackagePath": "staticwebassets/cityImages/taskent-1.webp"
+    },
+    {
       "Id": "/Users/yigitkatircioglu/Projects/RealEstate_Dapper_Api/RealEstate_Dapper_UI/wwwroot/css/site.css",
       "PackagePath": "staticwebassets/css/site.css"
     },
@@ -749,8 +781,16 @@
       "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
     },
     {
+      "Id": "/Users/yigitkatircioglu/Projects/RealEstate_Dapper_Api/RealEstate_Dapper_UI/wwwroot/starter/.DS_Store",
+      "PackagePath": "staticwebassets/starter/.DS_Store"
+    },
+    {
       "Id": "/Users/yigitkatircioglu/Projects/RealEstate_Dapper_Api/RealEstate_Dapper_UI/wwwroot/starter/about.html",
       "PackagePath": "staticwebassets/starter/about.html"
+    },
+    {
+      "Id": "/Users/yigitkatircioglu/Projects/RealEstate_Dapper_Api/RealEstate_Dapper_UI/wwwroot/starter/assets/.DS_Store",
+      "PackagePath": "staticwebassets/starter/assets/.DS_Store"
     },
     {
       "Id": "/Users/yigitkatircioglu/Projects/RealEstate_Dapper_Api/RealEstate_Dapper_UI/wwwroot/starter/assets/css/style-starter.css",

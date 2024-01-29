@@ -5,7 +5,5 @@ CREATE TABLE [dbo].[BottomGrid] (
     [Description]  NVARCHAR (250) NULL,
     PRIMARY KEY CLUSTERED ([BottomGridID] ASC)
 );
-
-
 GO
 

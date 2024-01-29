@@ -4,7 +4,5 @@ CREATE TABLE [dbo].[Category] (
     [CategoryStatus] BIT           NULL,
     PRIMARY KEY CLUSTERED ([CategoryID] ASC)
 );
-
-
 GO
 

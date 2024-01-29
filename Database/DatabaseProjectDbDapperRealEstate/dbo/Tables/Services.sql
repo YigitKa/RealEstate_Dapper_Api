@@ -4,7 +4,5 @@ CREATE TABLE [dbo].[Services] (
     [ServiceStatus] BIT            NULL,
     PRIMARY KEY CLUSTERED ([ServiceID] ASC)
 );
-
-
 GO
 

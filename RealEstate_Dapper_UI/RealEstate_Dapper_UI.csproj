@@ -33,6 +33,7 @@
     <None Remove="DTOs\ServiceDTOs\" />
     <None Remove="Views\Shared\Components\_DefaultBottomGridComponentPartial\" />
     <None Remove="DTOs\BottomGridDTOs\" />
+    <None Remove="DTOs\PopularLocationDTOs\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\Profile\" />
@@ -59,8 +60,13 @@
     <Folder Include="DTOs\ServiceDTOs\" />
     <Folder Include="Views\Shared\Components\_DefaultBottomGridComponentPartial\" />
     <Folder Include="DTOs\BottomGridDTOs\" />
+    <Folder Include="wwwroot\cityImages\" />
+    <Folder Include="DTOs\PopularLocationDTOs\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="wwwroot\cityImages\" />
   </ItemGroup>
 </Project>

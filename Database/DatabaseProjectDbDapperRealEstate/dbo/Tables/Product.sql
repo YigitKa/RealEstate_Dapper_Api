@@ -14,7 +14,5 @@ CREATE TABLE [dbo].[Product] (
     FOREIGN KEY ([EmployeeID]) REFERENCES [dbo].[Employee] ([EmployeeID]),
     FOREIGN KEY ([ProductCategory]) REFERENCES [dbo].[Category] ([CategoryID])
 );
-
-
 GO
 

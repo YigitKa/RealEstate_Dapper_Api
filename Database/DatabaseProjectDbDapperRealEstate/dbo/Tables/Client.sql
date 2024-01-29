@@ -5,7 +5,5 @@ CREATE TABLE [dbo].[Client] (
     [Comment]  NVARCHAR (2000) NULL,
     PRIMARY KEY CLUSTERED ([ClientID] ASC)
 );
-
-
 GO
 
