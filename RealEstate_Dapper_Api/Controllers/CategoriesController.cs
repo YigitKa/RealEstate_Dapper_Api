@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using RealEstate_Dapper_Api.DTOs.CategoryDTOs;
 using RealEstate_Dapper_Api.Repositories.CategoryRepository;
-
-// For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace RealEstate_Dapper_Api.Controllers
 {
@@ -27,22 +21,23 @@ namespace RealEstate_Dapper_Api.Controllers
             return Ok(values);
         }
 
+
         [HttpPost]
-        public async Task<IActionResult> CreateCategory(CreateCategoryDTO createCategoryDTO)
+        public async Task<IActionResult> CreateCategory([FromBody]CreateCategoryDTO createCategoryDTO)
         {
             _categoryRepository.CreateCategory(createCategoryDTO);
-            return Ok("Kategori eklendi");
+            return Ok("Kategori Başarılı Bir Şekilde Eklendi");
         }
 
-        [HttpDelete]
-        public async Task<IActionResult> DeleteCategory(int categoryID)
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteCategory(int id)
         {
-            _categoryRepository.DeleteCategory(categoryID);
+            _categoryRepository.DeleteCategory(id);
             return Ok("Kategori silindi");
         }
 
         [HttpPut]
-        public async Task<IActionResult> UpdateCategory(UpdateCategoryDTO categoryDTO)
+        public async Task<IActionResult> UpdateCategory([FromBody]UpdateCategoryDTO categoryDTO)
         {
             _categoryRepository.UpdateCategory(categoryDTO);
             return Ok("Kategori güncellendi");

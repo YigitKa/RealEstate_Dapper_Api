@@ -1,3 +1,11 @@
+/Users/yigitkatircioglu/Projects/RealEstate_Dapper_Api/RealEstate_Dapper_UI/obj/Debug/net7.0/RealEstate_Dapper_UI.csproj.AssemblyReference.cache
+/Users/yigitkatircioglu/Projects/RealEstate_Dapper_Api/RealEstate_Dapper_UI/obj/Debug/net7.0/RealEstate_Dapper_UI.GeneratedMSBuildEditorConfig.editorconfig
+/Users/yigitkatircioglu/Projects/RealEstate_Dapper_Api/RealEstate_Dapper_UI/obj/Debug/net7.0/RealEstate_Dapper_UI.AssemblyInfoInputs.cache
+/Users/yigitkatircioglu/Projects/RealEstate_Dapper_Api/RealEstate_Dapper_UI/obj/Debug/net7.0/RealEstate_Dapper_UI.AssemblyInfo.cs
+/Users/yigitkatircioglu/Projects/RealEstate_Dapper_Api/RealEstate_Dapper_UI/obj/Debug/net7.0/RealEstate_Dapper_UI.csproj.CoreCompileInputs.cache
+/Users/yigitkatircioglu/Projects/RealEstate_Dapper_Api/RealEstate_Dapper_UI/obj/Debug/net7.0/RealEstate_Dapper_UI.MvcApplicationPartsAssemblyInfo.cache
+/Users/yigitkatircioglu/Projects/RealEstate_Dapper_Api/RealEstate_Dapper_UI/obj/Debug/net7.0/RealEstate_Dapper_UI.RazorAssemblyInfo.cache
+/Users/yigitkatircioglu/Projects/RealEstate_Dapper_Api/RealEstate_Dapper_UI/obj/Debug/net7.0/RealEstate_Dapper_UI.RazorAssemblyInfo.cs
 /Users/yigitkatircioglu/Projects/RealEstate_Dapper_Api/RealEstate_Dapper_UI/bin/Debug/net7.0/appsettings.Development.json
 /Users/yigitkatircioglu/Projects/RealEstate_Dapper_Api/RealEstate_Dapper_UI/bin/Debug/net7.0/appsettings.json
 /Users/yigitkatircioglu/Projects/RealEstate_Dapper_Api/RealEstate_Dapper_UI/bin/Debug/net7.0/RealEstate_Dapper_UI.staticwebassets.runtime.json
@@ -7,14 +15,6 @@
 /Users/yigitkatircioglu/Projects/RealEstate_Dapper_Api/RealEstate_Dapper_UI/bin/Debug/net7.0/RealEstate_Dapper_UI.dll
 /Users/yigitkatircioglu/Projects/RealEstate_Dapper_Api/RealEstate_Dapper_UI/bin/Debug/net7.0/RealEstate_Dapper_UI.pdb
 /Users/yigitkatircioglu/Projects/RealEstate_Dapper_Api/RealEstate_Dapper_UI/bin/Debug/net7.0/Newtonsoft.Json.dll
-/Users/yigitkatircioglu/Projects/RealEstate_Dapper_Api/RealEstate_Dapper_UI/obj/Debug/net7.0/RealEstate_Dapper_UI.csproj.AssemblyReference.cache
-/Users/yigitkatircioglu/Projects/RealEstate_Dapper_Api/RealEstate_Dapper_UI/obj/Debug/net7.0/RealEstate_Dapper_UI.GeneratedMSBuildEditorConfig.editorconfig
-/Users/yigitkatircioglu/Projects/RealEstate_Dapper_Api/RealEstate_Dapper_UI/obj/Debug/net7.0/RealEstate_Dapper_UI.AssemblyInfoInputs.cache
-/Users/yigitkatircioglu/Projects/RealEstate_Dapper_Api/RealEstate_Dapper_UI/obj/Debug/net7.0/RealEstate_Dapper_UI.AssemblyInfo.cs
-/Users/yigitkatircioglu/Projects/RealEstate_Dapper_Api/RealEstate_Dapper_UI/obj/Debug/net7.0/RealEstate_Dapper_UI.csproj.CoreCompileInputs.cache
-/Users/yigitkatircioglu/Projects/RealEstate_Dapper_Api/RealEstate_Dapper_UI/obj/Debug/net7.0/RealEstate_Dapper_UI.MvcApplicationPartsAssemblyInfo.cache
-/Users/yigitkatircioglu/Projects/RealEstate_Dapper_Api/RealEstate_Dapper_UI/obj/Debug/net7.0/RealEstate_Dapper_UI.RazorAssemblyInfo.cache
-/Users/yigitkatircioglu/Projects/RealEstate_Dapper_Api/RealEstate_Dapper_UI/obj/Debug/net7.0/RealEstate_Dapper_UI.RazorAssemblyInfo.cs
 /Users/yigitkatircioglu/Projects/RealEstate_Dapper_Api/RealEstate_Dapper_UI/obj/Debug/net7.0/staticwebassets/msbuild.RealEstate_Dapper_UI.Microsoft.AspNetCore.StaticWebAssets.props
 /Users/yigitkatircioglu/Projects/RealEstate_Dapper_Api/RealEstate_Dapper_UI/obj/Debug/net7.0/staticwebassets/msbuild.build.RealEstate_Dapper_UI.props
 /Users/yigitkatircioglu/Projects/RealEstate_Dapper_Api/RealEstate_Dapper_UI/obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.RealEstate_Dapper_UI.props

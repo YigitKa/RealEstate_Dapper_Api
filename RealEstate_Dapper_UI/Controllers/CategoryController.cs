@@ -25,24 +25,28 @@ namespace RealEstate_Dapper_UI.Controllers
             }
             return View();
         }
+
         [HttpGet]
         public IActionResult CreateCategory()
         {
             return View();
         }
+
         [HttpPost]
-        public async Task<IActionResult> CreateCategory(ResultCategoryDTO createCategoryDto)
+        public async Task<IActionResult> CreateCategory(CreateCategoryDTO createCategoryDto)
         {
             var client = _httpClientFactory.CreateClient();
             var jsonData = JsonConvert.SerializeObject(createCategoryDto);
             StringContent stringContent = new StringContent(jsonData, Encoding.UTF8, "application/json");
             var responseMessage = await client.PostAsync("https://localhost:7123/api/Categories", stringContent);
+            
             if (responseMessage.IsSuccessStatusCode)
             {
                 return RedirectToAction("Index");
             }
             return View();
         }
+
         public async Task<IActionResult> DeleteCategory(int id)
         {
             var client = _httpClientFactory.CreateClient();
@@ -53,6 +57,7 @@ namespace RealEstate_Dapper_UI.Controllers
             }
             return View();
         }
+
         [HttpGet]
         public async Task<IActionResult> UpdateCategory(int id)
         {
@@ -61,13 +66,14 @@ namespace RealEstate_Dapper_UI.Controllers
             if (responseMessage.IsSuccessStatusCode)
             {
                 var jsonData = await responseMessage.Content.ReadAsStringAsync();
-                var values = JsonConvert.DeserializeObject<ResultCategoryDTO>(jsonData);
+                var values = JsonConvert.DeserializeObject<UpdateCategoryDTO>(jsonData);
                 return View(values);
             }
             return View();
         }
+
         [HttpPost]
-        public async Task<IActionResult> UpdateCategory(ResultCategoryDTO updateCategoryDto)
+        public async Task<IActionResult> UpdateCategory(UpdateCategoryDTO updateCategoryDto)
         {
             var client = _httpClientFactory.CreateClient();
             var jsonData = JsonConvert.SerializeObject(updateCategoryDto);
@@ -79,5 +85,6 @@ namespace RealEstate_Dapper_UI.Controllers
             }
             return View();
         }
+
     }
 }

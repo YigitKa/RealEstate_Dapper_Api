@@ -14,11 +14,12 @@ namespace RealEstate_Dapper_Api.Repositories.CategoryRepository
             _context = context;
         }
 
-        public async void CreateCategory(CreateCategoryDTO categoryDTO)
+        public async void CreateCategory(CreateCategoryDTO createCategoryDTO)
         {
-            string query = "INSERT INTO Category (CategoryName, CategoryStatus) VALUES (@categoryName, @categoryStatus)";
+            string query = "INSERT INTO Category (CategoryName, CategoryStatus) " +
+                " VALUES (@categoryName, @categoryStatus)";
             var parameters = new DynamicParameters();
-            parameters.Add("@categoryName", categoryDTO.CategoryName);
+            parameters.Add("@categoryName", createCategoryDTO.CategoryName);
             parameters.Add("@categoryStatus", true);
 
             using (var connection = _context.CreateConnection())
@@ -27,11 +28,11 @@ namespace RealEstate_Dapper_Api.Repositories.CategoryRepository
             }
         }
 
-        public async void DeleteCategory(int categoryID)
+        public async void DeleteCategory(int id)
         {
             string query = "DELETE FROM Category WHERE CategoryID = @categoryID";
             var parameters = new DynamicParameters();
-            parameters.Add("@categoryID", categoryID);
+            parameters.Add("@categoryID", id);
 
             using (var connection = _context.CreateConnection())
             {
