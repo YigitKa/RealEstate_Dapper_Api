@@ -44,6 +44,7 @@
     <None Remove="Views\Shared\Components\_AdminLayoutNavbarComponentPartial\" />
     <None Remove="Views\Shared\Components\_AdminLayoutFooterComponentPartial\" />
     <None Remove="DTOs\CategoryDTOs\" />
+    <None Remove="Views\Product\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\Profile\" />
@@ -82,6 +83,7 @@
     <Folder Include="Views\Shared\Components\_AdminLayoutNavbarComponentPartial\" />
     <Folder Include="Views\Shared\Components\_AdminLayoutFooterComponentPartial\" />
     <Folder Include="DTOs\CategoryDTOs\" />
+    <Folder Include="Views\Product\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />

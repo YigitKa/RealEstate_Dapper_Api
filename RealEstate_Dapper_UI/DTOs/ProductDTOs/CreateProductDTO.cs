@@ -1,9 +1,8 @@
 ﻿using System;
 namespace RealEstate_Dapper_UI.DTOs.ProductDTOs
 {
-	public class ResultProductDTO
+	public class CreateProductDTO
     {
-        public int productID { get; set; }
         public string title { get; set; }
         public decimal price { get; set; }
         public string city { get; set; }
