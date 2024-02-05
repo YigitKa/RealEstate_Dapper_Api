@@ -34,6 +34,8 @@
     <None Remove="Repositories\BottomGridRepository\" />
     <None Remove="DTOs\PopularLocationDTOs\" />
     <None Remove="Repositories\PopularLocationRepository\" />
+    <None Remove="Repositories\EmployeeRepositories\" />
+    <None Remove="DTOs\EmployeeDTOs\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />
@@ -53,5 +55,7 @@
     <Folder Include="Repositories\BottomGridRepository\" />
     <Folder Include="DTOs\PopularLocationDTOs\" />
     <Folder Include="Repositories\PopularLocationRepository\" />
+    <Folder Include="Repositories\EmployeeRepositories\" />
+    <Folder Include="DTOs\EmployeeDTOs\" />
   </ItemGroup>
 </Project>
