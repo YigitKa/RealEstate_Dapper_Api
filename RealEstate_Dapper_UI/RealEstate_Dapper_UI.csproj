@@ -50,6 +50,7 @@
     <None Remove="Views\Statistic\" />
     <None Remove="Views\WhoWeAre\" />
     <None Remove="Views\Service\" />
+    <None Remove="Views\BottomGrid\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\Profile\" />
@@ -94,6 +95,7 @@
     <Folder Include="Views\Statistic\" />
     <Folder Include="Views\WhoWeAre\" />
     <Folder Include="Views\Service\" />
+    <Folder Include="Views\BottomGrid\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
