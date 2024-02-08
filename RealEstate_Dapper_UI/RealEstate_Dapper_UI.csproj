@@ -36,7 +36,6 @@
     <None Remove="DTOs\PopularLocationDTOs\" />
     <None Remove="Views\Admin\" />
     <None Remove="Views\Category\" />
-    <None Remove="Views\Shared\Components\_AdminLayoutHeadComponentPartial\" />
     <None Remove="Views\Shared\Components\_AdminLayoutSpinnerComponentPartial\" />
     <None Remove="ViewComponents\AdminLayout\" />
     <None Remove="Views\Shared\Components\_AdminLayoutSideBarComponentPartial\" />
@@ -47,6 +46,7 @@
     <None Remove="Views\Product\" />
     <None Remove="DTOs\EmployeeDTOs\" />
     <None Remove="Views\Employee\" />
+    <None Remove="Views\Shared\Components\_AdminLayoutHeaderComponentPartial\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\Profile\" />
@@ -77,7 +77,6 @@
     <Folder Include="DTOs\PopularLocationDTOs\" />
     <Folder Include="Views\Admin\" />
     <Folder Include="Views\Category\" />
-    <Folder Include="Views\Shared\Components\_AdminLayoutHeadComponentPartial\" />
     <Folder Include="Views\Shared\Components\_AdminLayoutSpinnerComponentPartial\" />
     <Folder Include="ViewComponents\AdminLayout\" />
     <Folder Include="Views\Shared\Components\_AdminLayoutSideBarComponentPartial\" />
@@ -88,6 +87,7 @@
     <Folder Include="Views\Product\" />
     <Folder Include="DTOs\EmployeeDTOs\" />
     <Folder Include="Views\Employee\" />
+    <Folder Include="Views\Shared\Components\_AdminLayoutHeaderComponentPartial\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />

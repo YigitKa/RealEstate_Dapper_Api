@@ -36,6 +36,7 @@
     <None Remove="Repositories\PopularLocationRepository\" />
     <None Remove="Repositories\EmployeeRepositories\" />
     <None Remove="DTOs\EmployeeDTOs\" />
+    <None Remove="Repositories\StatisticRepositories\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />
@@ -57,5 +58,6 @@
     <Folder Include="Repositories\PopularLocationRepository\" />
     <Folder Include="Repositories\EmployeeRepositories\" />
     <Folder Include="DTOs\EmployeeDTOs\" />
+    <Folder Include="Repositories\StatisticRepositories\" />
   </ItemGroup>
 </Project>
