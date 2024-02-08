@@ -33,11 +33,11 @@ namespace RealEstate_Dapper_Api.Repositories.EmployeeRepositories
             }
         }
 
-        public async void DeleteEmployee(DeleteEmployeeDTO deleteEmployeeDTO)
+        public async void DeleteEmployee(int id)
         {
             string query = "DELETE FROM Employee WHERE EmployeeID = @employeeID";
             var parameters = new DynamicParameters();
-            parameters.Add("@employeeID", deleteEmployeeDTO.EmployeeID);
+            parameters.Add("@employeeID", id);
 
             using (var connection = _context.CreateConnection())
             {
@@ -72,7 +72,6 @@ namespace RealEstate_Dapper_Api.Repositories.EmployeeRepositories
         {
             string query = "UPDATE Employee SET " +
                "Name = @name, " +
-               "Title = @title, " +
                "Title = @title, " +
                "Mail = @mail, " +
                "Phone = @phone, " +

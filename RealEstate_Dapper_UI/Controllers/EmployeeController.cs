@@ -32,6 +32,11 @@ namespace RealEstate_Dapper_UI.Controllers
             return View();
         }
 
+        [HttpGet]
+        public IActionResult CreateEmployee()
+        {
+            return View();
+        }
 
         [HttpPost]
         public async Task<IActionResult> CreateEmployee(CreateEmployeeDTO createEmployeeDTO)
