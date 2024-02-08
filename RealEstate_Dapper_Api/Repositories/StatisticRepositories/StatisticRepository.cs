@@ -64,7 +64,7 @@ namespace RealEstate_Dapper_Api.Repositories.StatisticRepositories
 
         public int AverageRoomCount()
         {
-            string query = "SELECT AVG(RoomCount) FROM ProductDetail";
+            string query = "SELECT AVG(RoomCount) FROM ProductDetails";
             using (var connection = _context.CreateConnection())
             {
                 var value = connection.QueryFirstOrDefault<int>(query);
@@ -89,7 +89,7 @@ namespace RealEstate_Dapper_Api.Repositories.StatisticRepositories
                      "(SELECT TOP 1 ProductCategory  " +
                      "FROM Product " +
                      "GROUP BY  ProductCategory " +
-                     "ORDER BY COUNT(*) DESC)))";
+                     "ORDER BY COUNT(*) DESC)";
             using (var connection = _context.CreateConnection())
             {
                 var value = connection.QueryFirstOrDefault<string>(query);
@@ -132,7 +132,7 @@ namespace RealEstate_Dapper_Api.Repositories.StatisticRepositories
 
         public string NewestBuildingYear()
         {
-            string query = "SELECT TOP 1 BuilYear FROM ProductDetail Order BY CONVERT(INT, BuildYear) DESC";
+            string query = "SELECT TOP 1 BuildYear FROM ProductDetails Order BY CONVERT(INT, BuildYear) DESC";
             using (var connection = _context.CreateConnection())
             {
                 var value = connection.QueryFirstOrDefault<string>(query);
@@ -142,7 +142,7 @@ namespace RealEstate_Dapper_Api.Repositories.StatisticRepositories
 
         public string OldestBuildingYear()
         {
-            string query = "SELECT TOP 1 BuilYear FROM ProductDetail Order BY CONVERT(INT, BuildYear) ASC";
+            string query = "SELECT TOP 1 BuildYear FROM ProductDetails Order BY CONVERT(INT, BuildYear) ASC";
             using (var connection = _context.CreateConnection())
             {
                 var value = connection.QueryFirstOrDefault<string>(query);
