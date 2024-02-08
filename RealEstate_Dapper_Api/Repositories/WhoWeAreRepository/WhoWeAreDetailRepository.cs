@@ -45,7 +45,7 @@ namespace RealEstate_Dapper_Api.Repositories.WhoWeAreDetailRepository
 
         public async Task<List<ResultWhoWeAreDetailDTO>> GetAllWhoWeAreDetailAsync()
         {
-            string query = "SELECT * FROM WhoWeAreDetail";
+            string query = "SELECT TOP 1 * FROM WhoWeAreDetail";
             using (var connection = _context.CreateConnection())
             {
                 var values = await connection.QueryAsync<ResultWhoWeAreDetailDTO>(query);
@@ -67,18 +67,19 @@ namespace RealEstate_Dapper_Api.Repositories.WhoWeAreDetailRepository
 
         public async void UpdateWhoWeAreDetail(UpdateWhoWeAreDetailDTO whoWeAreDetailDTO)
         {
-            string query = "UPDATE WhoWeAreDetial SET " +
+            string query = "UPDATE WhoWeAreDetail SET " +
                             "Title = @title, " +
                             "SubTitle = @subTitle, " +
                             "Description1 = @description1, " +
                             "Description2 = @description2 " +
-                            "WHERE WhoWeAreDetialID = @whoWeAreDetailID";
+                            "WHERE WhoWeAreDetailID = @whoWeAreDetailID";
 
             var parameters = new DynamicParameters();
             parameters.Add("@title", whoWeAreDetailDTO.Title);
             parameters.Add("@subTitle", whoWeAreDetailDTO.SubTitle);
             parameters.Add("@description1", whoWeAreDetailDTO.Description1);
             parameters.Add("@description2", whoWeAreDetailDTO.Description2);
+            parameters.Add("@whoWeAreDetailID", whoWeAreDetailDTO.WhoWeAreDetailID);
 
             using (var connection = _context.CreateConnection())
             {

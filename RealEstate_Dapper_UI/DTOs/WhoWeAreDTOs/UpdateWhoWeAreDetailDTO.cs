@@ -1,7 +1,7 @@
 ﻿using System;
 namespace RealEstate_Dapper_UI.DTOs.WhoWeAreDTOs
 {
-	public class ResultWhoWeAreDetailDTO
+	public class UpdateWhoWeAreDetailDTO
 	{
         public int WhoWeAreDetailID { get; set; }
         public string Title { get; set; }

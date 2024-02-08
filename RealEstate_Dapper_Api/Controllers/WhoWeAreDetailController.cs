@@ -29,17 +29,17 @@ namespace RealEstate_Dapper_Api.Controllers
             return Ok("WhoWeAreDetail eklendi");
         }
 
-        [HttpDelete]
-        public async Task<IActionResult> DeleteWhoWeAreDetail(int categoryID)
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteWhoWeAreDetail(int id)
         {
-            _whoWeAreDetailRepository.DeleteWhoWeAreDetail(categoryID);
+            _whoWeAreDetailRepository.DeleteWhoWeAreDetail(id);
             return Ok("WhoWeAreDetail silindi");
         }
 
         [HttpPut]
-        public async Task<IActionResult> UpdateWhoWeAreDetail(UpdateWhoWeAreDetailDTO categoryDTO)
+        public async Task<IActionResult> UpdateWhoWeAreDetail([FromBody] UpdateWhoWeAreDetailDTO updateWhoWeAreDetailDTO)
         {
-            _whoWeAreDetailRepository.UpdateWhoWeAreDetail(categoryDTO);
+            _whoWeAreDetailRepository.UpdateWhoWeAreDetail(updateWhoWeAreDetailDTO);
             return Ok("WhoWeAreDetail güncellendi");
         }
 
