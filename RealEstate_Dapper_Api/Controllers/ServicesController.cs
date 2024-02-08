@@ -23,21 +23,21 @@ namespace RealEstate_Dapper_Api.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> CreateService(CreateServiceDTO createServiceDTO)
+        public async Task<IActionResult> CreateService([FromBody] CreateServiceDTO createServiceDTO)
         {
             _serviceRepository.CreateService(createServiceDTO);
             return Ok("Servis eklendi");
         }
 
-        [HttpDelete]
-        public async Task<IActionResult> DeleteService(int serviceID)
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteService(int id)
         {
-            _serviceRepository.DeleteService(serviceID);
+            _serviceRepository.DeleteService(id);
             return Ok("Kategori silindi");
         }
 
         [HttpPut]
-        public async Task<IActionResult> UpdateService(UpdateServiceDTO serviceDTO)
+        public async Task<IActionResult> UpdateService([FromBody] UpdateServiceDTO serviceDTO)
         {
             _serviceRepository.UpdateService(serviceDTO);
             return Ok("Kategori güncellendi");

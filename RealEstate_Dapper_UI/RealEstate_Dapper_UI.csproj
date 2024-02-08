@@ -49,6 +49,7 @@
     <None Remove="Views\Shared\Components\_AdminLayoutHeaderComponentPartial\" />
     <None Remove="Views\Statistic\" />
     <None Remove="Views\WhoWeAre\" />
+    <None Remove="Views\Service\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\Profile\" />
@@ -92,6 +93,7 @@
     <Folder Include="Views\Shared\Components\_AdminLayoutHeaderComponentPartial\" />
     <Folder Include="Views\Statistic\" />
     <Folder Include="Views\WhoWeAre\" />
+    <Folder Include="Views\Service\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
