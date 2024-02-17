@@ -31,3 +31,4 @@
 /Users/yigitkatircioglu/Projects/RealEstate_Dapper_Api/RealEstate_Dapper_UI/obj/Debug/net7.0/RealEstate_Dapper_UI.pdb
 /Users/yigitkatircioglu/Projects/RealEstate_Dapper_Api/RealEstate_Dapper_UI/obj/Debug/net7.0/RealEstate_Dapper_UI.genruntimeconfig.cache
 /Users/yigitkatircioglu/Projects/RealEstate_Dapper_Api/RealEstate_Dapper_UI/obj/Debug/net7.0/ref/RealEstate_Dapper_UI.dll
+/Users/yigitkatircioglu/Projects/RealEstate_Dapper_Api/RealEstate_Dapper_UI/obj/Debug/net7.0/RealEstate_Dapper_UI.sourcelink.json

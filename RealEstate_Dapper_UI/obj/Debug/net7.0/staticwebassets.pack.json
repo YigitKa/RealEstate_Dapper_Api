@@ -5,10 +5,6 @@
       "PackagePath": "staticwebassets/RealEstate_Dapper_UI.bundle.scp.css"
     },
     {
-      "Id": "/Users/yigitkatircioglu/Projects/RealEstate_Dapper_Api/RealEstate_Dapper_UI/wwwroot/.DS_Store",
-      "PackagePath": "staticwebassets/.DS_Store"
-    },
-    {
       "Id": "/Users/yigitkatircioglu/Projects/RealEstate_Dapper_Api/RealEstate_Dapper_UI/wwwroot/cityImages/ankara-1.jpeg",
       "PackagePath": "staticwebassets/cityImages/ankara-1.jpeg"
     },
@@ -781,16 +777,8 @@
       "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
     },
     {
-      "Id": "/Users/yigitkatircioglu/Projects/RealEstate_Dapper_Api/RealEstate_Dapper_UI/wwwroot/starter/.DS_Store",
-      "PackagePath": "staticwebassets/starter/.DS_Store"
-    },
-    {
       "Id": "/Users/yigitkatircioglu/Projects/RealEstate_Dapper_Api/RealEstate_Dapper_UI/wwwroot/starter/about.html",
       "PackagePath": "staticwebassets/starter/about.html"
-    },
-    {
-      "Id": "/Users/yigitkatircioglu/Projects/RealEstate_Dapper_Api/RealEstate_Dapper_UI/wwwroot/starter/assets/.DS_Store",
-      "PackagePath": "staticwebassets/starter/assets/.DS_Store"
     },
     {
       "Id": "/Users/yigitkatircioglu/Projects/RealEstate_Dapper_Api/RealEstate_Dapper_UI/wwwroot/starter/assets/css/style-starter.css",

@@ -10,9 +10,15 @@ CREATE TABLE [dbo].[Product] (
     [ProductCategory] INT             NULL,
     [EmployeeID]      INT             NULL,
     [Type]            NVARCHAR (10)   NULL,
+    [DealOfTheDay]    BIT             CONSTRAINT [DEFAULT_Product_DealOfDay] DEFAULT ((0)) NULL,
     PRIMARY KEY CLUSTERED ([ProductID] ASC),
     FOREIGN KEY ([EmployeeID]) REFERENCES [dbo].[Employee] ([EmployeeID]),
     FOREIGN KEY ([ProductCategory]) REFERENCES [dbo].[Category] ([CategoryID])
 );
+GO
+
+
+ALTER TABLE [dbo].[Product]
+    ADD CONSTRAINT [DEFAULT_Product_DealOfDay] DEFAULT ((0)) FOR [DealOfTheDay];
 GO
 

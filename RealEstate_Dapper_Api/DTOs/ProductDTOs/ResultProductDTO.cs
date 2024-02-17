@@ -12,6 +12,7 @@ namespace RealEstate_Dapper_Api.DTOs.ProductDTOs
         public string Type { get; set; }
         public string CoverImage { get; set; }
         public string Address { get; set; }
+
     }
 }
 
