@@ -1,5 +1,5 @@
 ﻿using System;
-namespace RealEstate_Dapper_Api.DTOs.PopularLocationDTOs
+namespace RealEstate_Dapper_UI.DTOs.PopularLocationDTOs
 {
 	public class GetByIDPopularLocationDTO
     {
